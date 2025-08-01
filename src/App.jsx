@@ -13,7 +13,7 @@ import People from './components/People';
 import Peopledetails from './components/Peopledetails';
 import Contact from './components/Contact';
 import About from './components/About';
-import Notfound from './components/Notfound';
+import NotFound from './components/NotFound';
 import Signupform from './components/Signupform';
 import LoginForm from './components/LoginForm';
 import { ToastContainer } from 'react-toastify';
@@ -72,7 +72,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/signup" element={<Signupform />} />
           <Route path="/signin" element={<LoginForm />} />
-          <Route path="*" element={<Notfound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <ToastContainer />
       </div>
